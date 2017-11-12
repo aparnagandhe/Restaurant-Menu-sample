@@ -1,4 +1,3 @@
-
 body {
   background-color: #d3d3d3;
   font-family: 'Arial', sans-serif;  
@@ -42,6 +41,7 @@ body {
  	font-size: 20px;
  	font-weight: bold;
  	margin-bottom: 15px;
+ 	margin-top: 10px;
  }
  .chicken p, .beef p, .sushi p {
  	width: 100%;
@@ -50,8 +50,22 @@ body {
     margin-left: 5px;
  	margin-right: 5px;
  }
- #box1 , #box2, #box3 {
+ #box1 , #box2 ,#box3 {
  	display: inline-block;
  	margin-bottom: 50px;
  }
- 
+ .navbar-toggle {
+ 	margin-top: -50px;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+  width: 100%;
+  background-color: #D8BFD8;
+  }
+ #nav-list {
+  margin-top: 10px;
+}
