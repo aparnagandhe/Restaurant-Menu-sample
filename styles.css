@@ -14,7 +14,7 @@ body {
   margin-top: 20px;
 }
 .navbar-company a {
-	color:black;
+	/*color:black;*/
 	font-weight: bold;
 	font-size: 40px;
 	text-decoration:none;
@@ -49,9 +49,9 @@ body {
     text-align: center;
     margin-left: 5px;
  	margin-right: 5px;
+ 	text-align: justify;
  }
  #box1 , #box2 ,#box3 {
- 	display: inline-block;
  	margin-bottom: 50px;
  }
  .navbar-toggle {
